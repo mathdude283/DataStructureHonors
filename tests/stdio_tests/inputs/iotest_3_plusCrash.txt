@@ -1,0 +1,17 @@
+Architect Mayor Actor 
+15
+ADD Pilot 0
+ADD Lawyer 1
+ADD Demolitionist 5
+CAR_CRASH 4
+FIRE Lawyer 
+ADD Fireman 1
+ADD Director 2
+CAR_CRASH 2
+ADD CEO 1
+SLEPT_IN 1
+ADD Fireman 0
+SLEPT_IN 1
+ADD Sculpter 0
+ADD HVAC-Repairman 1
+CAR_CRASH 0

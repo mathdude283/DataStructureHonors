@@ -1,0 +1,17 @@
+Sheriff Programmer Babysitter 
+15
+FIRE Programmer 
+FIRE Sheriff 
+ADD Baker 0
+ADD Zookeeper 2
+ADD Zookeeper 3
+FIRE Babysitter 
+ADD Babysitter 3
+ADD Taxman 3
+ADD Fry-Cook 5
+FIRE Zookeeper 
+ADD Lawyer 4
+FIRE Babysitter 
+ADD Olympian 1
+ADD Weatherman 0
+ADD Demolitionist 2

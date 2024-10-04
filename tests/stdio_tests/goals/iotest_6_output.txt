@@ -1,0 +1,45 @@
+CEO Brain-Surgeon
+CEO Package-Handler Brain-Surgeon
+CEO Package-Handler Zookeeper Brain-Surgeon
+CEO Package-Handler Zookeeper Dentist Brain-Surgeon
+CEO Package-Handler Taxman Zookeeper Dentist Brain-Surgeon
+CEO Package-Handler Zookeeper Dentist Brain-Surgeon
+Consultant CEO Package-Handler Zookeeper Dentist Brain-Surgeon
+Consultant CEO Package-Handler Zookeeper
+Consultant CEO Sculpter Package-Handler Zookeeper
+Consultant CEO Sculpter Package-Handler Zookeeper HVAC-Repairman
+Unemployed
+Farmer
+Unemployed
+Fry-Cook
+Artist Fry-Cook
+Artist Clown Fry-Cook
+Unemployed
+Store-Clerk
+Store-Clerk Paramedic
+Architect Store-Clerk Paramedic
+CEO Architect Store-Clerk Paramedic
+CEO Architect Store-Clerk Mathematician Paramedic
+Architect Store-Clerk Mathematician Paramedic
+Architect Store-Clerk Mathematician CEO Paramedic
+Architect Sculpter Store-Clerk Mathematician CEO Paramedic
+Architect Sculpter
+Architect Sculpter Architect
+Architect Demolitionist Sculpter Architect
+Demolitionist Sculpter Architect
+Demolitionist Sculpter Architect Dentist
+Babysitter Demolitionist Sculpter Architect Dentist
+Babysitter Sculpter Architect Dentist
+Unemployed
+Fry-Cook
+Fry-Cook Architect
+Fry-Cook Dentist Architect
+Unemployed
+Professor
+Cashier Professor
+Coal-Miner Cashier Professor
+Unemployed
+CEO
+CEO Magician
+CEO Musician Magician
+CEO Musician Gambler Magician

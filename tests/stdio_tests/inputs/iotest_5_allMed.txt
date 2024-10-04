@@ -1,0 +1,32 @@
+Mayor Garbageman Artist 
+30
+ADD Lawyer 0
+FIRE Garbageman 
+ADD Package-Handler 0
+FIRE Mayor 
+SLEPT_IN 2
+ADD Sculpter 0
+CAR_CRASH 1
+CAR_CRASH 0
+ADD Psychologist 0
+ADD Weatherman 0
+ADD Lawyer 0
+DISEASE
+DISEASE
+ADD Banker 0
+ADD Gambler 1
+SLEPT_IN 2
+ADD Mayor 0
+FIRE Mayor 
+ADD Mayor 0
+ADD Dentist 1
+FIRE Mayor 
+FIRE Dentist 
+ADD Magician 0
+DISEASE
+ADD Zookeeper 0
+FIRE Zookeeper 
+ADD Mayor 0
+DISEASE
+ADD Baker 0
+ADD Actor 0

@@ -1,0 +1,15 @@
+Architect Actor Magician Store-Clerk
+Architect Actor Magician
+Actor Magician
+Actor Zookeeper Magician
+Actor Zookeeper Musician Magician
+Actor Zookeeper Musician Magician Cleric
+Actor Zookeeper Magician Cleric
+Zookeeper Magician Cleric
+Zookeeper Magician Cleric Consultant
+Zookeeper Demolitionist Magician Cleric Consultant
+Zookeeper Demolitionist Demolitionist Magician Cleric Consultant
+Zookeeper Magician Cleric Consultant
+Package-Handler Zookeeper Magician Cleric Consultant
+Consultant
+Programmer Consultant

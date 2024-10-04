@@ -1,0 +1,12 @@
+HVAC-Repairman Reporter Pharmacist 
+10
+ADD CEO 1
+ADD Pilot 0
+ADD CEO 5
+ADD Package-Handler 3
+ADD Olympian 0
+ADD Coal-Miner 3
+ADD Babysitter 4
+ADD Lawyer 5
+ADD Garbageman 1
+ADD Pharmacist 11

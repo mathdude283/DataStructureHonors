@@ -1,0 +1,17 @@
+Architect Chemist Taxman 
+15
+FIRE Architect 
+ADD Taxman 1
+FIRE Taxman 
+ADD Package-Handler 1
+ADD Architect 2
+ADD Shelf-Stocker 2
+CAR_CRASH 3
+ADD Mathematician 1
+ADD Shelf-Stocker 2
+DISEASE
+ADD Lawyer 0
+SLEPT_IN 1
+ADD Brain-Surgeon 0
+ADD Pilot 0
+ADD Construction-Worker 1

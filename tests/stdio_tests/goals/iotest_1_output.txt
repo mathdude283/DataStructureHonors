@@ -1,0 +1,15 @@
+Sheriff Babysitter
+Babysitter
+Baker Babysitter
+Baker Babysitter Zookeeper
+Baker Babysitter Zookeeper Zookeeper
+Baker Zookeeper Zookeeper
+Baker Zookeeper Zookeeper Babysitter
+Baker Zookeeper Zookeeper Taxman Babysitter
+Baker Zookeeper Zookeeper Taxman Babysitter Fry-Cook
+Baker Taxman Babysitter Fry-Cook
+Baker Taxman Babysitter Fry-Cook Lawyer
+Baker Taxman Fry-Cook Lawyer
+Baker Olympian Taxman Fry-Cook Lawyer
+Weatherman Baker Olympian Taxman Fry-Cook Lawyer
+Weatherman Baker Demolitionist Olympian Taxman Fry-Cook Lawyer

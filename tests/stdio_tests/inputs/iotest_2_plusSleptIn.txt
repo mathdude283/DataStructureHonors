@@ -1,0 +1,17 @@
+Architect Magician Store-Clerk 
+15
+ADD Actor 1
+FIRE Store-Clerk 
+FIRE Architect 
+ADD Zookeeper 1
+ADD Musician 2
+ADD Cleric 4
+FIRE Musician 
+SLEPT_IN 1
+ADD Consultant 3
+ADD Demolitionist 1
+ADD Demolitionist 2
+FIRE Demolitionist 
+ADD Package-Handler 0
+SLEPT_IN 4
+ADD Programmer 0

@@ -1,0 +1,15 @@
+Chemist Taxman
+Chemist Taxman Taxman
+Chemist
+Chemist Package-Handler
+Chemist Package-Handler Architect
+Chemist Package-Handler Shelf-Stocker Architect
+Chemist Package-Handler Shelf-Stocker
+Chemist Mathematician Package-Handler Shelf-Stocker
+Chemist Mathematician Shelf-Stocker Package-Handler Shelf-Stocker
+Unemployed
+Lawyer
+Unemployed
+Brain-Surgeon
+Pilot Brain-Surgeon
+Pilot Construction-Worker Brain-Surgeon

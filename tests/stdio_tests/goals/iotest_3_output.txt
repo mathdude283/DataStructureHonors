@@ -1,0 +1,15 @@
+Pilot Architect Mayor Actor
+Pilot Lawyer Architect Mayor Actor
+Pilot Lawyer Architect Mayor Actor Demolitionist
+Pilot Lawyer Architect Mayor
+Pilot Architect Mayor
+Pilot Fireman Architect Mayor
+Pilot Fireman Director Architect Mayor
+Pilot Fireman
+Pilot CEO Fireman
+CEO Fireman
+Fireman CEO Fireman
+CEO Fireman
+Sculpter CEO Fireman
+Sculpter HVAC-Repairman CEO Fireman
+Unemployed

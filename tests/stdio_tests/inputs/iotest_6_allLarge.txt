@@ -1,0 +1,47 @@
+Dentist CEO Brain-Surgeon 
+45
+FIRE Dentist 
+ADD Package-Handler 1
+ADD Zookeeper 2
+ADD Dentist 3
+ADD Taxman 2
+FIRE Taxman 
+ADD Consultant 0
+CAR_CRASH 4
+ADD Sculpter 2
+ADD HVAC-Repairman 5
+DISEASE
+ADD Farmer 0
+FIRE Farmer 
+ADD Fry-Cook 0
+ADD Artist 0
+ADD Clown 1
+SLEPT_IN 3
+ADD Store-Clerk 0
+ADD Paramedic 1
+ADD Architect 0
+ADD CEO 0
+ADD Mathematician 3
+FIRE CEO 
+ADD CEO 3
+ADD Sculpter 1
+CAR_CRASH 2
+ADD Architect 2
+ADD Demolitionist 1
+SLEPT_IN 1
+ADD Dentist 3
+ADD Babysitter 0
+FIRE Demolitionist 
+SLEPT_IN 4
+ADD Fry-Cook 0
+ADD Architect 1
+ADD Dentist 1
+DISEASE
+ADD Professor 0
+ADD Cashier 0
+ADD Coal-Miner 0
+DISEASE
+ADD CEO 0
+ADD Magician 1
+ADD Musician 1
+ADD Gambler 2

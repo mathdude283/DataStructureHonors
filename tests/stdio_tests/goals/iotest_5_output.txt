@@ -1,0 +1,30 @@
+Lawyer Mayor Garbageman Artist
+Lawyer Mayor Artist
+Package-Handler Lawyer Mayor Artist
+Package-Handler Lawyer Artist
+Artist
+Sculpter Artist
+Sculpter
+Unemployed
+Psychologist
+Weatherman Psychologist
+Lawyer Weatherman Psychologist
+Unemployed
+Unemployed
+Banker
+Banker Gambler
+Unemployed
+Mayor
+Unemployed
+Mayor
+Mayor Dentist
+Dentist
+Unemployed
+Magician
+Unemployed
+Zookeeper
+Unemployed
+Mayor
+Unemployed
+Baker
+Actor Baker
