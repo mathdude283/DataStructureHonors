@@ -25,12 +25,29 @@ int main() {
   }
 
   string func = "";
+  string job = "";
+  int timeslot;
   int total_days;
   cin >> total_days;
 
   for (int day = 0; day < total_days; day++) {
     cin >> func;
-    // Finish Me!
+    if (func == "ADD") {
+      cin >> job;
+      cin >> timeslot;
+      add(schedule, job, timeslot);
+    } else if (func == "FIRE") {
+      cin >> job;
+      fire(schedule, job);
+    } else if (func == "SLEPT_IN") {
+      cin >> timeslot;
+      sleepIn(schedule, timeslot);
+    } else if (func == "CAR_CRASH") {
+      cin >> timeslot;
+      carCrash(schedule, timeslot);
+    } else if (func == "DISEASE") {
+      disease(schedule);
+    }
     print_schedule(schedule);
   }
 
@@ -56,15 +73,52 @@ void print_schedule(MyList<string> &theList) {
 // add function - Inserts job in the given time slot
 // If timeslot >= len of MyList is passed,
 // job is appended to the end.
-void add(MyList<string> &theList, const string &jobTitle, int timeSlot) {}
+void add(MyList<string> &theList, const string &jobTitle, int timeSlot) {
+  int theListSize = theList.size();
+  LinkedListIterator<string> iter = theList.begin();
+  if (timeSlot < theListSize) {
+    for (int i = 0; i < timeSlot; i++) {
+      iter++;
+    }
+    theList.insert(iter, jobTitle);
+  } else if (timeSlot >= theListSize) {
+    for (int i = 0; i < theListSize; i++) {
+      iter++;
+    }
+    theList.insert(iter, jobTitle);
+  }
+}
 
 // If he is fired from a specific job, it goes
 // through his schedule from front to back,
 // erasing each instance of that job from his schedule
-void fire(MyList<string> &theList, const string &jobTitle) {}
+void fire(MyList<string> &theList, const string &jobTitle) {
+  LinkedListIterator<string> iter = theList.begin();
+  while (iter->next != nullptr) {
+    if (iter->data == jobTitle) {
+      theList.erase(iter);
+    } else {
+      iter++;
+    }
+  }
+}
 
-void sleepIn(MyList<string> &theList, int time) {}
+void sleepIn(MyList<string> &theList, int time) {
+  LinkedListIterator<string> iter = theList.begin();
+  while (time > 0) {
+    theList.erase(iter);
+    time--;
+  }
+}
 
-void carCrash(MyList<string> &theList, int timeSlot) {}
+void carCrash(MyList<string> &theList, int timeSlot) {
+  LinkedListIterator<string> iter = theList.begin();
+  for (int i = 0; i < timeSlot; i++) {
+    iter++;
+  }
+  while (iter->next != nullptr) {
+    theList.erase(iter);
+  }
+}
 
-void disease(MyList<string> &theList) {}
+void disease(MyList<string> &theList) { theList.clear(); }
