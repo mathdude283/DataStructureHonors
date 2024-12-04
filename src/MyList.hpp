@@ -14,7 +14,7 @@ template <typename T> LinkedListIterator<T> MyList<T>::begin() {
 // modified
 template <typename T> MyList<T>::MyList() { next = nullptr; }
 
-// new
+// modified
 template <typename T> MyList<T>::~MyList() { delete next; }
 
 // modified

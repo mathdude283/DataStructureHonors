@@ -124,8 +124,6 @@ public:
   // list.splice_after(splice_point, source)
   // list - [1, 2, 3, 5, 6, 4], source - []
   // Can be done with precision pointer surgery, no new/delete needed!
-
-  // modified
   void splice_after(MyList<T> *splice_point, MyList &source);
 };
 
