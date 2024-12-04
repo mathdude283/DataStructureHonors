@@ -26,7 +26,7 @@ template <typename T> int MyList<T>::size() {
 }
 
 // modified
-template <typename T> T &MyList<T>::front() { return *data; }
+template <typename T> T &MyList<T>::front() { return data; }
 
 // modified
 template <typename T> void MyList<T>::push_front(const T &value) {
