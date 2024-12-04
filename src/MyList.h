@@ -14,25 +14,21 @@ using std::cout;
 using std::endl;
 using std::string;
 
-template <typename T> class ListNode {
-public:
-  T data;
+// new
+template <typename T> class MyList;
 
-  ListNode<T> *next;
-  // ListNode<T> *prev;
-  // un-comment the line above if you'd like to attempt a doubly-linked list
-  // Warning: will require you to re-write some provided functions
-};
-
+// modified
 template <typename T> class LinkedListIterator {
-  ListNode<T> *ptr;
+  MyList<T> *ptr;
 
 public:
-  LinkedListIterator(ListNode<T> *p) { ptr = p; } // constructor
+  // modified
+  LinkedListIterator(MyList<T> *p) { ptr = p; } // constructor
   T &operator*() {
     return ptr->data;
   } // de-referencing iterator gives access to the data in the current node
-  ListNode<T> *operator->() { return ptr; }
+  // modified
+  MyList<T> *operator->() { return ptr; }
   LinkedListIterator<T> &operator+(int increment) {
     int hops = 0;
     while (hops < increment && ptr != nullptr) {
@@ -55,11 +51,20 @@ public:
 
 template <typename T> class MyList {
 private:
-  ListNode<T> *head = nullptr;
+  // ListNode<T> *head = nullptr;
 
-  int num_elements;
+  // int num_elements;
+
+  // new
+  void assign_helper(int count, const T &value);
+
+  // new
+  LinkedListIterator<T> reverse_helper();
 
 public:
+  T data;
+
+  MyList<T> *next;
   LinkedListIterator<T> begin();
 
   MyList();
@@ -119,7 +124,9 @@ public:
   // list.splice_after(splice_point, source)
   // list - [1, 2, 3, 5, 6, 4], source - []
   // Can be done with precision pointer surgery, no new/delete needed!
-  void splice_after(ListNode<T> *splice_point, MyList &source);
+
+  // modified
+  void splice_after(MyList<T> *splice_point, MyList &source);
 };
 
 #include "MyList.hpp"

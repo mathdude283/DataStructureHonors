@@ -24,7 +24,7 @@ int main(const int argc, const char **argv) {
     other_list.push_front(r2);
     other_list.push_front(r1);
 
-    ListNode<int> *splice_point = your_list.begin()->next;
+    MyList<int> *splice_point = your_list.begin()->next;
     your_list.splice_after(splice_point, other_list);
 
     LinkedListIterator<int> iter = your_list.begin();
